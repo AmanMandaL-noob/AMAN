@@ -3,7 +3,7 @@ import style from "./Card.module.scss";
 const Card = ({
     image = {
         // image placeholder
-        thumbnail: "http://lgimages.s3.amazonaws.com/nc-sm.gif",
+        thumbnail: "",
     },
     title,
     authors = [],
