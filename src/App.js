@@ -6,7 +6,7 @@ import style from "./App.module.scss";
 import Modal from "./components/Modal/Modal";
 
 const App = () => {
-    const baseURL = "https://www.googleapis.com/books/v1/volumes?q=";
+    const baseURL = "";
     const [search, setSearch] = useState("");
     const [bookResults, setBookResults] = useState([]);
     const [modalClick, setModalClick] = useState(false);
